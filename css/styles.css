@@ -72,20 +72,37 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
-  margin-bottom: 50px;
+  align-items: top;
+  margin-bottom: 70px;
   padding: 5px 5px 0px 5px;
 }
-.header .logo {
+.header .profile {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
+  width: 100px;
+  }
+.header .profile__name {
+  font-size: 24px;
+  font-weight: 700;
+  padding: 0px 0px 20px 10px;
+  display: flex;
+  width: 400px;
+}
+.profile__image {
+    width: 60px;
+    height: 60PX;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 10px;
 }
 .header .nav ul {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 10px;
+  align-items: end;
+  gap: 20px;
+  width: 37px;
+  height: 16px;
 }
 .header .nav li {
     list-style: none;
@@ -95,7 +112,17 @@ body {
   flex-direction: column;
   text-align: left;
   justify-content: center;
-  margin-bottom: 50px;
+  margin: 50px 0px 50px 0px;
   width: 200px;
-  
+  /* I'm Sarah Chen, design student and explorer of visual languages. I'm passionate about understanding how different design disciplines intersect and create meaningful connections. */
+
+width: 335px;
+height: 304px;
+
+/* Heading */
+font-family: 'Source Serif Pro';
+font-style: normal;
+font-weight: 300;
+font-size: 28px;
+line-height: 135%;
 }
