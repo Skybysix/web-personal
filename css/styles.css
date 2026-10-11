@@ -96,6 +96,21 @@ body {
     object-fit: cover;
     margin-left: 10px;
 }
+nav a {
+    text-decoration: none;
+}
+.nav__home {
+  font-size: 15px;
+  color:deeppink;
+}
+.nav__about {
+  font-size: 15px;
+  color:#6E660A;
+}
+.nav__contact {
+  font-size: 15px;
+  color:purple;
+}
 .header .nav ul {
   display: flex;
   flex-direction: column;
@@ -130,39 +145,90 @@ line-height: 135%;
   display: flex;
   flex-direction: column;
   text-align: left;
-  margin: 40px 0px 60px 0px;
+  margin: 40px 0px 40px 0px;
 }
 .section .sectionYoga {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
+  color:blue;
 }
 .section .sectionPainting{
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
+  color:darkviolet;
 }
 .section .sectionMagazine{
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
+  color: #6E660A;
 }
 .section .sectionItaly{
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
+  color: #5F00AD;
 }
 .section .sectionCastro{  
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
+  color:blue;
+}
+.section .sectionMiniTitle{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5em;
+}
+.section .sectionTitle{
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 1.5em;
 }
 
 .button1{
-  width: 60px;
+  width:60px;
+  height: 22px;
+  background-color: transparent;
+  border: 1px solid blue;
+  color: blue;
 }
 .button2{
+  width: 60px;
+  height: 22px;
+  background-color: transparent;
+  border: 1px solid darkviolet;
+  color: darkviolet;
+}
+.button3{
+  width: 60px;
+  height: 22px;
+  background-color: transparent;
+  border: 1px solid #6E660A;
+  color: #6E660A;
+}
+.button4{
+  width: 60px;
+  height: 22px;
+  background-color: transparent;
+  border: 1px solid #5F00AD;
+  color: #5F00AD;
+}
+.button5{
+  width: 60px;
+  height: 22px;
+  background-color: transparent;
+  border: 1px solid blue;
+  color: blue;
+}
+.button6{
   width: 200px;
+  height: 22px;
+  padding: 5px 5px 5px 5px;
+  background-color: transparent;
+  border: 1.5px solid black;
 }
 .sectionImage{
   padding-top: 40px;
@@ -174,12 +240,34 @@ line-height: 135%;
 }
 .Description2{
   padding-bottom: 30px;
+  font-weight: 300;
+  font-size: 25px;
 }
 .footerNav{
- display: flex;
+  display: flex;
   flex-direction: column;
   align-items: begin;
   gap: 20px;
   margin-top: 20px;
   margin-bottom: 70px
+}
+.footerEmail{
+  font-size: 30px;
+  font-weight: 300;
+  color:darkmagenta;
+}
+.footerBehance{
+  font-size: 30px;
+  font-weight: 300; 
+  color:darkviolet;
+}
+.footerLinkedIn{
+  font-size: 30px;
+  font-weight: 300;
+  color:blue;
+}
+.copyrightText{
+  font-size: 25px;
+  font-weight: 300;
+  color: black;
 }
