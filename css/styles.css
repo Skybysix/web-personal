@@ -126,3 +126,14 @@ font-weight: 300;
 font-size: 28px;
 line-height: 135%;
 }
+.section {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.button1{
+  width: 60px;
+}
+.button2{
+  width: 200px;
+}
