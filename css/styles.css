@@ -304,3 +304,171 @@ nav a {
   font-weight: 300;
   color: black;
 }
+/* =========================================================
+   PEGA ESTO AL FINAL DE TU styles.css
+   (después de todo tu CSS de móvil)
+   ========================================================= */
+
+
+/* =========================================================
+   TABLET: a partir de 768px
+   ========================================================= */
+@media (min-width: 768px) {
+
+  body {
+    padding: 30px 40px 65px 40px;
+  }
+
+  /* ---------- HEADER ---------- */
+  .header {
+    align-items: center;
+    margin-bottom: 40px;
+  }
+
+  /* Foto a la izquierda del nombre, en la misma línea */
+  .header .profile {
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    width: auto;
+  }
+
+  .profile__image {
+    order: -1;            /* la imagen pasa delante del nombre */
+    margin-left: 0;
+    width: 40px;
+    height: 40px;
+  }
+
+  .header .profile__name {
+    width: auto;
+    padding: 0;
+    font-size: 18px;
+  }
+
+  /* Menú en horizontal */
+  .header .nav ul {
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    width: auto;
+    height: auto;
+  }
+
+  .nav__home,
+  .nav__about,
+  .nav__contact {
+    font-size: 13px;
+  }
+
+  /* ---------- DESCRIPCIÓN PRINCIPAL ---------- */
+  .Descripción {
+    width: 100%;
+    max-width: 560px;
+    height: auto;
+    margin: 40px 0;
+    font-size: 26px;
+  }
+
+  /* ---------- PROYECTOS: texto a la izquierda, imagen a la derecha ---------- */
+  .section article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+  }
+
+  .section article > div {
+    flex: 1;
+  }
+
+  .sectionImage {
+    width: 40%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    padding: 0;
+  }
+
+  .section .sectionTitle {
+    font-size: 26px;
+  }
+
+  /* ---------- ÚLTIMA SECCIÓN ---------- */
+  .UltimaSeccion {
+    padding-top: 60px;
+  }
+
+  .Description2 {
+    max-width: 450px;
+    font-size: 26px;
+  }
+
+  /* ---------- FOOTER: enlaces en fila ---------- */
+  .footerNav {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+
+  .footer a {
+    text-decoration: underline;
+  }
+
+  .footerEmail,
+  .footerBehance,
+  .footerLinkedIn {
+    font-size: 24px;
+  }
+
+  .copyrightText {
+    font-size: 18px;
+  }
+}
+
+
+/* =========================================================
+   PC: a partir de 1024px
+   (se suma a lo de tablet, solo cambia lo necesario)
+   ========================================================= */
+@media (min-width: 1024px) {
+
+  /* Contenido centrado y con ancho máximo */
+  body {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 30px 60px 80px 60px;
+  }
+
+  .Descripción {
+    max-width: 820px;
+    margin: 60px 0;
+    font-size: 32px;
+  }
+
+  /* Imágenes más grandes, casi la mitad del ancho */
+  .sectionImage {
+    width: 48%;
+  }
+
+  .section .sectionTitle {
+    font-size: 34px;
+  }
+
+  .Description2 {
+    max-width: 600px;
+    font-size: 30px;
+  }
+
+  .footerEmail,
+  .footerBehance,
+  .footerLinkedIn {
+    font-size: 32px;
+  }
+
+  .copyrightText {
+    font-size: 22px;
+  }
+}
