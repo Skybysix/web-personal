@@ -1,58 +1,59 @@
 @font-face {
-    font-family: "Source Serif 4";
-    src: url("../assets/fonts/Source_Serif_4/static/SourceSerif4-ExtraLight.ttf") format("truetype");
-    font-weight: 200;
-    font-style: normal;
+  font-family: "Source Serif 4";
+  src: url("../assets/fonts/Source_Serif_4/static/SourceSerif4-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "Source Serif 4";
-    src: url("../assets/fonts/Source_Serif_4/static/SourceSerif4-Light.ttf") format("truetype");
-    font-weight: 300;
-    font-style: normal;
+  font-family: "Source Serif 4";
+  src: url("../assets/fonts/Source_Serif_4/static/SourceSerif4-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "Source Serif 4";
-    src: url("../assets/fonts/Source_Serif_4/static/SourceSerif4-Regular.ttf") format("truetype");
-    font-weight: 400;
-    font-style: normal;
+  font-family: "Source Serif 4";
+  src: url("../assets/fonts/Source_Serif_4/static/SourceSerif4-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "Source Serif 4";
-    src: url("../assets/fonts/Source_Serif_4/static/SourceSerif4-Medium.ttf") format("truetype");
-    font-weight: 500;
-    font-style: normal;
+  font-family: "Source Serif 4";
+  src: url("../assets/fonts/Source_Serif_4/static/SourceSerif4-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "Source Serif 4";
-    src: url("../assets/fonts/Source_Serif_4/static/SourceSerif4-Semibold.ttf") format("truetype");
-    font-weight: 600;
-    font-style: normal;
+  font-family: "Source Serif 4";
+  src: url("../assets/fonts/Source_Serif_4/static/SourceSerif4-Semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "Source Serif 4";
-    src: url("../assets/fonts/Source_Serif_4/static/SourceSerif4-Bold.ttf") format("truetype");
-    font-weight: 700;
-    font-style: normal;
+  font-family: "Source Serif 4";
+  src: url("../assets/fonts/Source_Serif_4/static/SourceSerif4-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "Source Serif 4";
-    src: url("../assets/fonts/Source_Serif_4/static/SourceSerif4-ExtraBold.ttf") format("truetype");
-    font-weight: 800;
-    font-style: normal;
+  font-family: "Source Serif 4";
+  src: url("../assets/fonts/Source_Serif_4/static/SourceSerif4-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "Source Serif 4";
-    src: url("../assets/fonts/Source_Serif_4/static/SourceSerif4-Black.ttf") format("truetype");
-    font-weight: 900;
-    font-style: normal;
+  font-family: "Source Serif 4";
+  src: url("../assets/fonts/Source_Serif_4/static/SourceSerif4-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
 }
+
 :root {
   --font-main: "Source Serif 4", sans-serif;
 }
@@ -68,6 +69,7 @@ body {
   background-color: #FFFFFF;
   padding: 20px 20px 65px 20px;
 }
+
 .header {
   display: flex;
   flex-direction: row;
@@ -76,12 +78,14 @@ body {
   margin-bottom: 70px;
   padding: 5px 5px 0px 5px;
 }
+
 .header .profile {
   display: flex;
   flex-direction: column;
   align-items: left;
   width: 100px;
-  }
+}
+
 .header .profile__name {
   font-size: 22px;
   font-weight: 500;
@@ -89,28 +93,34 @@ body {
   display: flex;
   width: 400px;
 }
+
 .profile__image {
-    width: 50px;
-    height: 50PX;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-left: 10px;
+  width: 50px;
+  height: 50PX;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 10px;
 }
+
 nav a {
-    text-decoration: none;
+  text-decoration: none;
 }
+
 .nav__home {
   font-size: 15px;
-  color:deeppink;
+  color: deeppink;
 }
+
 .nav__about {
   font-size: 15px;
-  color:#6E660A;
+  color: #6E660A;
 }
+
 .nav__contact {
   font-size: 15px;
-  color:purple;
+  color: purple;
 }
+
 .header .nav ul {
   display: flex;
   flex-direction: column;
@@ -119,9 +129,11 @@ nav a {
   width: 37px;
   height: 16px;
 }
+
 .header .nav li {
-    list-style: none;
+  list-style: none;
 }
+
 .Descripción {
   display: flex;
   flex-direction: column;
@@ -131,119 +143,136 @@ nav a {
   width: 200px;
   /* I'm Sarah Chen, design student and explorer of visual languages. I'm passionate about understanding how different design disciplines intersect and create meaningful connections. */
 
-width: 335px;
-height: 304px;
+  width: 335px;
+  height: 304px;
 
-/* Heading */
-font-family: 'Source Serif Pro';
-font-style: normal;
-font-weight: 300;
-font-size: 28px;
-line-height: 135%;
+  /* Heading */
+  font-family: 'Source Serif Pro';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 135%;
 }
+
 .section {
   display: flex;
   flex-direction: column;
   text-align: left;
   margin: 40px 0px 40px 0px;
 }
+
 .section .sectionYoga {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  color:blue;
+  color: blue;
 }
-.section .sectionPainting{
+
+.section .sectionPainting {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  color:darkviolet;
+  color: darkviolet;
 }
-.section .sectionMagazine{
+
+.section .sectionMagazine {
   display: flex;
   flex-direction: column;
   gap: 10px;
   color: #6E660A;
 }
-.section .sectionItaly{
+
+.section .sectionItaly {
   display: flex;
   flex-direction: column;
   gap: 10px;
   color: #5F00AD;
 }
-.section .sectionCastro{  
+
+.section .sectionCastro {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  color:blue;
+  color: blue;
 }
-.section .sectionMiniTitle{
+
+.section .sectionMiniTitle {
   font-weight: 400;
   font-size: 12px;
   line-height: 1.5em;
 }
-.section .sectionTitle{
+
+.section .sectionTitle {
   font-weight: 300;
   font-size: 30px;
   line-height: 1.5em;
 }
 
-.button1{
-  width:60px;
+.button1 {
+  width: 60px;
   height: 22px;
   background-color: transparent;
   border: 1px solid blue;
   color: blue;
 }
-.button2{
+
+.button2 {
   width: 60px;
   height: 22px;
   background-color: transparent;
   border: 1px solid darkviolet;
   color: darkviolet;
 }
-.button3{
+
+.button3 {
   width: 60px;
   height: 22px;
   background-color: transparent;
   border: 1px solid #6E660A;
   color: #6E660A;
 }
-.button4{
+
+.button4 {
   width: 60px;
   height: 22px;
   background-color: transparent;
   border: 1px solid #5F00AD;
   color: #5F00AD;
 }
-.button5{
+
+.button5 {
   width: 60px;
   height: 22px;
   background-color: transparent;
   border: 1px solid blue;
   color: blue;
 }
-.button6{
+
+.button6 {
   width: 200px;
   height: 22px;
   padding: 5px 5px 5px 5px;
   background-color: transparent;
   border: 1.5px solid black;
 }
-.sectionImage{
+
+.sectionImage {
   padding-top: 40px;
   padding-bottom: 80px;
 }
-.UltimaSeccion{
+
+.UltimaSeccion {
   padding-top: 25px;
   padding-bottom: 70px;
 }
-.Description2{
+
+.Description2 {
   padding-bottom: 30px;
   font-weight: 300;
   font-size: 25px;
 }
-.footerNav{
+
+.footerNav {
   display: flex;
   flex-direction: column;
   align-items: begin;
@@ -251,22 +280,26 @@ line-height: 135%;
   margin-top: 20px;
   margin-bottom: 70px
 }
-.footerEmail{
+
+.footerEmail {
   font-size: 30px;
   font-weight: 300;
-  color:darkmagenta;
+  color: darkmagenta;
 }
-.footerBehance{
-  font-size: 30px;
-  font-weight: 300; 
-  color:darkviolet;
-}
-.footerLinkedIn{
+
+.footerBehance {
   font-size: 30px;
   font-weight: 300;
-  color:blue;
+  color: darkviolet;
 }
-.copyrightText{
+
+.footerLinkedIn {
+  font-size: 30px;
+  font-weight: 300;
+  color: blue;
+}
+
+.copyrightText {
   font-size: 25px;
   font-weight: 300;
   color: black;
