@@ -107,6 +107,19 @@ body {
 .header .nav li {
     list-style: none;
 }
+.section {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 40px 0px 60px 0px;
+}
+.button1{
+  width: 60px;
+}
+.sectionImage{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 .footerNav{
  display: flex;
   flex-direction: column;
@@ -115,3 +128,4 @@ body {
   margin-top: 20px;
   margin-bottom: 70px
 }
+
