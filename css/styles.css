@@ -304,10 +304,7 @@ nav a {
   font-weight: 300;
   color: black;
 }
-/* =========================================================
-   PEGA ESTO AL FINAL DE TU styles.css
-   (después de todo tu CSS de móvil)
-   ========================================================= */
+
 
 
 /* =========================================================
@@ -325,7 +322,6 @@ nav a {
     margin-bottom: 40px;
   }
 
-  /* Foto a la izquierda del nombre, en la misma línea */
   .header .profile {
     flex-direction: row;
     align-items: center;
@@ -334,7 +330,7 @@ nav a {
   }
 
   .profile__image {
-    order: -1;            /* la imagen pasa delante del nombre */
+    order: -1;            
     margin-left: 0;
     width: 40px;
     height: 40px;
@@ -346,7 +342,6 @@ nav a {
     font-size: 18px;
   }
 
-  /* Menú en horizontal */
   .header .nav ul {
     flex-direction: row;
     align-items: center;
@@ -395,7 +390,6 @@ nav a {
     font-size: 26px;
   }
 
-  /* ---------- ÚLTIMA SECCIÓN ---------- */
   .UltimaSeccion {
     padding-top: 60px;
   }
@@ -405,7 +399,7 @@ nav a {
     font-size: 26px;
   }
 
-  /* ---------- FOOTER: enlaces en fila ---------- */
+  /* ---------- FOOTER ---------- */
   .footerNav {
     flex-direction: row;
     justify-content: space-between;
