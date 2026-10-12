@@ -68,6 +68,7 @@ body {
   background-color: #FFFFFF;
   padding: 20px 20px 80px 20px;
 }
+
 .header {
   display: flex;
   flex-direction: row;
@@ -76,26 +77,49 @@ body {
   margin-bottom: 70px;
   padding: 5px 5px 0px 5px;
 }
+
 .header .profile {
   display: flex;
   flex-direction: column;
   align-items: left;
   width: 100px;
-  }
+}
+
 .header .profile__name {
-  font-size: 24px;
-  font-weight: 700;
+  font-size: 22px;
+  font-weight: 500;
   padding: 0px 0px 20px 10px;
   display: flex;
   width: 400px;
 }
+
 .profile__image {
-    width: 60px;
-    height: 60PX;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-left: 10px;
+  width: 50px;
+  height: 50PX;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 10px;
 }
+
+nav a {
+  text-decoration: none;
+}
+
+.nav__home {
+  font-size: 15px;
+  color: deeppink;
+}
+
+.nav__about {
+  font-size: 15px;
+  color: #6E660A;
+}
+
+.nav__contact {
+  font-size: 15px;
+  color: purple;
+}
+
 .header .nav ul {
   display: flex;
   flex-direction: column;
@@ -104,8 +128,9 @@ body {
   width: 37px;
   height: 16px;
 }
+
 .header .nav li {
-    list-style: none;
+  list-style: none;
 }
 .section {
   display: flex;
@@ -120,12 +145,36 @@ body {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.footerNav{
- display: flex;
+.footerNav {
+  display: flex;
   flex-direction: column;
   align-items: begin;
   gap: 20px;
   margin-top: 20px;
   margin-bottom: 70px
+}
+
+.footerEmail {
+  font-size: 30px;
+  font-weight: 300;
+  color: darkmagenta;
+}
+
+.footerBehance {
+  font-size: 30px;
+  font-weight: 300;
+  color: darkviolet;
+}
+
+.footerLinkedIn {
+  font-size: 30px;
+  font-weight: 300;
+  color: blue;
+}
+
+.copyrightText {
+  font-size: 25px;
+  font-weight: 300;
+  color: black;
 }
 
