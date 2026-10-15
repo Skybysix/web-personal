@@ -163,10 +163,26 @@ nav a {
   color: blue;
 }
 
+.button1 {
+  width: 60px;
+  height: 22px;
+  background-color: transparent;
+  border: 1px solid blue;
+  color: blue;
+}
+
 .section .sectionPainting {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  color: darkviolet;
+}
+
+.button2 {
+  width: 60px;
+  height: 22px;
+  background-color: transparent;
+  border: 1px solid darkviolet;
   color: darkviolet;
 }
 
@@ -177,6 +193,14 @@ nav a {
   color: #6E660A;
 }
 
+.button3 {
+  width: 60px;
+  height: 22px;
+  background-color: transparent;
+  border: 1px solid #6E660A;
+  color: #6E660A;
+}
+
 .section .sectionItaly {
   display: flex;
   flex-direction: column;
@@ -184,10 +208,27 @@ nav a {
   color: #5F00AD;
 }
 
+.button4 {
+  width: 60px;
+  height: 22px;
+  background-color: transparent;
+  border: 1px solid #5F00AD;
+  color: #5F00AD;
+}
+
+
 .section .sectionCastro {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  color: blue;
+}
+
+.button5 {
+  width: 60px;
+  height: 22px;
+  background-color: transparent;
+  border: 1px solid blue;
   color: blue;
 }
 
@@ -201,46 +242,6 @@ nav a {
   font-weight: 300;
   font-size: 30px;
   line-height: 1.5em;
-}
-
-.button1 {
-  width: 60px;
-  height: 22px;
-  background-color: transparent;
-  border: 1px solid blue;
-  color: blue;
-}
-
-.button2 {
-  width: 60px;
-  height: 22px;
-  background-color: transparent;
-  border: 1px solid darkviolet;
-  color: darkviolet;
-}
-
-.button3 {
-  width: 60px;
-  height: 22px;
-  background-color: transparent;
-  border: 1px solid #6E660A;
-  color: #6E660A;
-}
-
-.button4 {
-  width: 60px;
-  height: 22px;
-  background-color: transparent;
-  border: 1px solid #5F00AD;
-  color: #5F00AD;
-}
-
-.button5 {
-  width: 60px;
-  height: 22px;
-  background-color: transparent;
-  border: 1px solid blue;
-  color: blue;
 }
 
 .button6 {
