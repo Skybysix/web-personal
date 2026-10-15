@@ -28,7 +28,7 @@
 
 @font-face {
   font-family: "Source Serif 4";
-  src: url("../assets/fonts/Source_Serif_4/static/SourceSerif4-Semibold.ttf") format("truetype");
+  src: url("../assets/fonts/Source_Serif_4/static/SourceSerif4-SemiBold.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
 }
@@ -266,6 +266,9 @@ nav a {
   font-weight: 300;
   font-size: 25px;
 }
+.footer a{
+list-style: none;
+}
 
 .footerNav {
   display: flex;
@@ -273,7 +276,7 @@ nav a {
   align-items: begin;
   gap: 20px;
   margin-top: 20px;
-  margin-bottom: 70px
+  margin-bottom: 70px;
 }
 
 .footerEmail {
@@ -347,7 +350,7 @@ nav a {
 
   .nav__home,
   .nav__about,
-  .nav__contact {
+  .nav__contact{
     font-size: 13px;
   }
 
