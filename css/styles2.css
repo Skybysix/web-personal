@@ -155,6 +155,32 @@ nav a {
   height: 446.22px;
 }
 
+.Foto2{
+  width: 335px;
+  height: 251.25px;
+}
+
+.Foto3{
+  width: 335px;
+  height: 223.59px;
+}
+.Foto4{
+  width: 335px;
+  height: 194.22px
+}
+
+
+.Foto5{
+width: 335px;
+height: 223.59px;
+}
+
+
+.Foto6{
+width: 335px;
+height: 335px;
+}
+
 .sectionFoto2{
   display: flex;
   flex-direction: column;
